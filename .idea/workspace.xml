@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fca85af-5c58-4144-8fd0-7e307ffd7673" name="Default Changelist" comment="" />
+    <list default="true" id="2fca85af-5c58-4144-8fd0-7e307ffd7673" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/My portfolio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/HelveticaNeueLt.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/fonts/OCRAStdRegular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/baner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/baner.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/github.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/project1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dwale.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dwale.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dwale.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -19,10 +35,55 @@
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="1" />
+          <entry key="html" value="1" />
+          <entry key="js" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="1" />
+          <entry key="JavaScript" value="1" />
+        </counts>
+      </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dwale.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dwale.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dwale.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dwale.js" />
+        <option value="$PROJECT_DIR$/dwale.css" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -84,12 +145,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564881785439</updated>
-      <workItem from="1564881786644" duration="314000" />
+      <workItem from="1564881786644" duration="407000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="314000" />
+    <option name="totallyTimeSpent" value="407000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -119,5 +180,20 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dwale.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwale.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dwale.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="211" lean-forward="true" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
