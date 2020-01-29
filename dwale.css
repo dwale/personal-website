@@ -1,27 +1,29 @@
 @font-face {
   font-family: OCR A Std Regular;
-  src: url("assets/fonts/OCRAStdRegular.ttf") 
+  src: url('assets/fonts/OCRAStdRegular.ttf');
 }
 @font-face {
   font-family: HelveticaNue;
-  src: url("assets/fonts/HelveticaNeueLt.ttf") 
+  src: url('assets/fonts/HelveticaNeueLt.ttf');
 }
 
-body, html {
-  background-color: #F1F1F1;
+body,
+html {
+  background-color: #f1f1f1;
   font-family: OCR A Std Regular;
   margin: 0;
+  scroll-behavior: smooth;
 }
 a {
   color: #000;
 }
 .container {
   display: flex;
-  padding:10px 60px 0px 90px;
+  padding: 10px 60px 0px 90px;
   flex-flow: column wrap;
 }
 .hel {
-  font-family: HelveticaNue!important;
+  font-family: HelveticaNue !important;
 }
 .nav {
   flex: 1;
@@ -31,8 +33,7 @@ a {
 }
 .nav .logo {
   flex: 1;
-  font-size: larger
-
+  font-size: larger;
 }
 .nav .menu {
   list-style: none;
@@ -46,16 +47,15 @@ a {
   flex: 4;
   justify-content: flex-end;
   margin: 0;
-
 }
 .menu a {
   text-decoration: none;
   display: block;
   padding: 1em;
 }
-.header:nth-child(1){
-margin-top: 60px;
-display: flex;
+.header:nth-child(1) {
+  margin-top: 60px;
+  display: flex;
 }
 .nav_jobs {
   list-style: none;
@@ -94,12 +94,12 @@ display: flex;
   position: relative;
 }
 .about .description {
-flex: 1;
-display: flex;
-flex-flow: column wrap;
-position: absolute;
-z-index: 999;
-max-width: 50%;
+  flex: 1;
+  display: flex;
+  flex-flow: column wrap;
+  position: absolute;
+  z-index: 999;
+  max-width: 50%;
 }
 .description .heading {
   font-size: xx-large;
@@ -114,7 +114,7 @@ max-width: 50%;
   position: relative;
   margin-left: 20%;
   top: 0;
-  }
+}
 .work {
   flex: 2;
   /* display: flex;
@@ -136,7 +136,6 @@ max-width: 50%;
   display: -ms-flexbox;
   display: -webkit-flex;
   margin: 65px 0 65px 0;
-
 }
 .jobs_container .jobs {
   padding: 20px;
@@ -151,17 +150,17 @@ max-width: 50%;
 }
 .contact {
   flex: 2;
-  align-content: space-between
+  align-content: space-between;
 }
 .header {
-  color: #FF4242;
+  color: #ff4242;
   display: flex;
   justify-content: flex-start;
   flex: 1;
 }
 .contact .contact-section {
   display: flex;
-  justify-content: baseline
+  justify-content: baseline;
 }
 .contact-section .contact-form {
   flex: 1;
@@ -174,25 +173,26 @@ max-width: 50%;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
-
 }
-input[type=text], textarea {
+input[type='text'],
+textarea {
   border-radius: 4px;
   font-family: OCR A Std Regular;
   padding: 10px 0px 3px 8px;
   opacity: 0.7;
-  background: #E5E5E5;
+  background: #e5e5e5;
   border: 0;
   letter-spacing: -0.05em;
   line-height: 17px;
-  -webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
-  -ms-transition: all 0.30s ease-in-out;
-  -o-transition: all 0.30s ease-in-out;
-  transition: all 0.30s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   outline: none;
 }
-input[type=text]:focus, textarea:focus {
+input[type='text']:focus,
+textarea:focus {
   /* box-shadow: 0 0 5px rgb(13, 13, 14); */
   padding: 10px 0px 3px 8px;
   margin: 5px 1px 3px 0px;
@@ -203,11 +203,11 @@ textarea {
   margin: 20px 0 0 0;
   resize: none;
 }
-input[type=text] {
+input[type='text'] {
   flex: 1;
 }
-::placeholder { 
-  color: #C4C4C4;
+::placeholder {
+  color: #c4c4c4;
 }
 .dwale_button {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
@@ -216,13 +216,12 @@ input[type=text] {
   flex: 1;
   margin: 20px 0 0 0;
   background-color: #000;
-  color: #C4C4C4;
-  border-radius:4px;
+  color: #c4c4c4;
+  border-radius: 4px;
   display: flex;
   cursor: pointer;
   border: #000 1px solid;
   transition: 0.5s;
-
 }
 .dwale_button:hover {
   box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.2);
@@ -232,7 +231,7 @@ input[type=text] {
   margin: 20px 0 0 0;
   background-color: rgb(250, 250, 250);
   color: rgb(17, 16, 16);
-  border-radius:4px;
+  border-radius: 4px;
   border: #000 1px solid;
   display: flex;
   cursor: pointer;
@@ -257,7 +256,7 @@ input[type=text] {
   display: flex;
 }
 .contact-quote .author {
-  color: #FF4242;
+  color: #ff4242;
   justify-content: flex-end;
   display: -webkit-box;
   display: -moz-box;
@@ -269,9 +268,8 @@ input[type=text] {
   flex: 1;
   display: flex;
   padding: 0 0px 0 0;
-  padding-inline-start: 0!important;
+  padding-inline-start: 0 !important;
   margin: 0;
-
 }
 .social .bottom_menu {
   list-style: none;
@@ -309,18 +307,18 @@ input[type=text] {
   display: block;
   padding: 1em;
 }
-.fa-twitter{
+.fa-twitter {
   transition: ease-out 0.5s;
-  }
-.fa-twitter:hover{
-color: turquoise
+}
+.fa-twitter:hover {
+  color: turquoise;
 }
 
-.fa-github{
+.fa-github {
   transition: ease-out 0.5s;
-  }
-.fa-github:hover{
-color: rgb(67, 70, 69);
+}
+.fa-github:hover {
+  color: rgb(67, 70, 69);
 }
 .footer {
   flex: 1;
@@ -331,14 +329,12 @@ color: rgb(67, 70, 69);
   padding-left: 50px;
 }
 
-
 @media (min-width: 900px) {
   .jobs_container .jobs {
     display: flex;
     justify-content: space-between;
   }
 }
-
 
 .card {
   display: flex;
@@ -354,7 +350,7 @@ color: rgb(67, 70, 69);
 .card--content {
   min-width: 300px;
   margin: 29px;
-  box-shadow: 3px 5px rgba(255,255,255,0.05);
+  box-shadow: 3px 5px rgba(255, 255, 255, 0.05);
 }
 
 .card--content img {
